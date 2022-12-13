@@ -10,7 +10,13 @@ class SongsController < ApplicationController
   end
 
   def create
-    
+    song = Song.new(
+      song.title = params[:title]
+      song.album = params[:album]
+      song.artist = params[:artist]
+      song.year = params[:year]
+    )
+    song.save
   end
 
   def update

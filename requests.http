@@ -5,3 +5,6 @@ GET http://localhost:3000//songs/1.json
 
 ###
 PATCH http://localhost:3000//songs/1.json
+
+###
+POST http://localhost:3000//songs
